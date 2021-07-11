@@ -1,0 +1,20 @@
+{
+    "aboutme":{
+        "name":"Akhil Kumar Mengani",
+        "Description":[]
+    },
+    "workexperience":[
+        {
+            "company":"Oracle",
+            "period":"July 2018 - June 2021",
+            "Contributions" : []
+        }
+    ],
+    "projects":[
+        {
+            "title" : "",
+            "description": "",
+            "technologies": ""
+        }
+    ]
+}
