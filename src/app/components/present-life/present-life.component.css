@@ -17,13 +17,17 @@ h2{
 }
 .present-container {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
     border: rgb(104, 100, 100);
     border-style:solid;
     border-radius: 10px;
     margin-top: 10px;
+    margin-right: 10px;
     width: 98%;
     height : 100%;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     background-color:rgb(205, 245, 235);
     justify-content: left;
 }
@@ -41,10 +45,12 @@ h2{
 .content{
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 50px;
+  margin-left: 25px;
+  margin-right: 50px;
   text-align: left;
-  font-size: 14px;
-  font-family: monospace;
+  word-wrap: break-word; 
+  font-size: 15px;
+  font-family: sans-serif, Helvetica,monospace,'Helvetica Neue', 'Open Sans', 'Segoe UI',sans-serif;
 }
 
 p{

@@ -44,7 +44,7 @@ h2{
   margin-left: 20px;
   text-align: left;
   font-size: 14px;
-  font-family: monospace;
+  font-family: sans-serif,Helvetica,monospace,'Helvetica Neue', 'Open Sans', 'Segoe UI', sans-serif , sans-serif;
 }
 
 p{

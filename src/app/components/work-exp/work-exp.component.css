@@ -33,6 +33,7 @@ h2{
 
 .exp-container{
     display: flex;
+    flex-wrap: wrap;
     border: rgb(104, 100, 100);
     border-style:solid;
     border-radius: 10px;
@@ -59,7 +60,7 @@ h2{
   margin-left: 25px;
   text-align: left;
   font-size: 14px;
-  font-family: monospace;
+  font-family: sans-serif, Helvetica,monospace,'Helvetica Neue', 'Open Sans', 'Segoe UI', sans-serif , sans-serif;;
 }
 
 li{

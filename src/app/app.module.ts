@@ -10,6 +10,7 @@ import { WorkExpComponent } from './components/work-exp/work-exp.component';
 import { EducationComponent } from './components/education/education.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     PresentLifeComponent,
     WorkExpComponent,
     EducationComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import * as data from '../../assets/data.json';
 import { HttpClient} from '@angular/common/http'
 import { Observable } from 'rxjs';
 
@@ -8,10 +7,13 @@ import { Observable } from 'rxjs';
 })
 export class PersonService {
 
-  constructor(private httpClient: HttpClient) { }
+  pdata = [];
 
-  getData(){
+  constructor(private httpClient: HttpClient) { 
+  }
+
+  getData():Observable<any[]>{
     return this.httpClient
-    .get('../../assets/data.json');
+    .get<any[]>('../../assets/data.json');
   }
 }
