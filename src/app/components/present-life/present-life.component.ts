@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PersonService } from 'src/app/services/person.service';
 
 @Component({
   selector: 'app-present-life',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PresentLifeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private personService:PersonService) { }
 
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
+    console.log("Akhil "+ (await this.personService.getAboutMe()).name);
   }
 
 }

@@ -11,7 +11,7 @@ export class MainComponent implements OnInit {
   constructor(private personService:PersonService) {}
 
   ngOnInit(): void {
-    console.log(this.personService.getData());
+    //console.log(this.personService.getData());
   }
 
 }
