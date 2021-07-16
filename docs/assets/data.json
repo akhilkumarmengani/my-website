@@ -3,11 +3,11 @@
         "name":"Akhil Kumar Mengani",
         "description":["I am a Software Engineer with 34 months of work experience and currently work on building HCM Cloud Application at Oracle"]
     },
-    "workexperience":[
+    "workexperiences":[
         {
             "company":"Oracle",
             "period":"July 2018 - June 2021",
-            "Contributions" : ["Developed an application which manages the employee life cycle events and the activities that occur between onboarding and off boarding in the organization",
+            "contributions" : ["Developed an application which manages the employee life cycle events and the activities that occur between onboarding and off boarding in the organization",
             "Developed various features in the Oracle Human Capital Management application and resolved bugs for 8 release cycles.",
             "Automated actions using Event-driven Service Oriented architecture",
             "Developed notification service which sends emails, reminders and application notifications to the users"]
