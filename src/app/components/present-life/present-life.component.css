@@ -9,7 +9,8 @@
     padding : 20px;
     margin-top: 20px;
     position:relative;
-    background-image: url("/my-website/images/bg-image-1.jpg");
+    background-image: url("/my-website/assets/bg-image-1.jpg");
+    background-size: cover;
 }
 h2{
   text-align: center;
