@@ -5,6 +5,7 @@ import * as data from '../../assets/data.json';
 import {me} from '../models/me';
 
 import {WorkExp} from '../models/WorkExp';
+import { Project } from '../models/project';
 
 @Injectable({
   providedIn: 'root'
@@ -13,9 +14,11 @@ export class PersonService {
 
   aboutme : me;
   workexperiences : WorkExp;
+  projects : Project;
   constructor(private httpClient: HttpClient) { 
     this.aboutme = new me();
     this.workexperiences = new WorkExp();
+    this.projects = new Project();
   }
 
   async getData(): Promise<any>{
@@ -25,6 +28,7 @@ export class PersonService {
     await fetch('../../assets/data.json').then(results => results.json()).then(json => {
          this.aboutme = json.aboutme;
          this.workexperiences = json.workexperiences;
+         this.projects = json.projects;
     });
 
     //console.log(this.aboutme.name);
