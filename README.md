@@ -1,6 +1,8 @@
 # MyWebsite
 
-Started this project with an idea of having my own website so that I can update or post about my work experiences and projects.
+I began this project with the goal of creating my own website where I could update or publish information about my job experiences and projects.
+
+I have not yet published all of my data, but I will do so over time.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
