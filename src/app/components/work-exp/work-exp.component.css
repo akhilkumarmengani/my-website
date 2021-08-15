@@ -35,7 +35,6 @@ h2{
 
 .exp-container{
     display: flex;
-    flex-wrap: wrap;
     border: rgb(104, 100, 100);
     border-style:solid;
     border-radius: 10px;

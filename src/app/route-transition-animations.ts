@@ -1,6 +1,6 @@
 import { trigger, transition, style, query, animateChild, group, animate } from '@angular/animations';
 export const routeTransitionAnimations = trigger('triggerName', [
-    transition('home <=> work, work <=> projects, projects <=> home', [
+    transition('home <=> work, work <=> projects, projects <=> contact , contact <=> home , contact <=> work', [
     style({ position: 'relative' }),
     query(':enter, :leave', [
       style({
