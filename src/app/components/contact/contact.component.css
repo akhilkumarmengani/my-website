@@ -1,4 +1,4 @@
-.present {
+.contact {
     border: rgb(104, 100, 100);
     border-style: solid;
     border-radius: 10px;
@@ -16,7 +16,7 @@ h2{
   justify-content: left;
 
 }
-.present-container {
+.contact-container {
   display: flex;
   flex-direction: row;
   position:relative;
@@ -24,12 +24,12 @@ h2{
     border: rgb(104, 100, 100);
     border-style:solid;
     border-radius: 10px;
-    margin : 10px 10px 10px 0px;
+    margin : 10px 100px 10px 100px;
     width: "calc(100% - 100px)";
     height : 100%;
     padding: 10px 10px 10px 10px;
     background-color:rgb(205, 245, 235);
-    justify-content: left;
+    justify-content: center;
 }
 
 .image{ 
@@ -45,9 +45,9 @@ h2{
 .content{
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: 20px;
-  margin-right: 50px;
-  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
   word-wrap: break-word; 
   font-size: 15px;
   font-family: sans-serif, Helvetica,monospace,'Helvetica Neue', 'Open Sans', 'Segoe UI',sans-serif;
