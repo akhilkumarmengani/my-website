@@ -1,0 +1,16 @@
+Starting for the first time:
+1. git init
+2. git clone <https://github.com/username/repo> 
+
+Create a component:
+1. ng generate component <component-name>
+
+Create a Service:
+1. ng generate service <service-name>
+
+Deploying on github pages:
+1. create a new branch : git checkout -b gh-pages
+2. ng build --output-path docs --base-href /my-website/
+3. git add .
+4. git commit -m 'message'
+5. git push origin <branch-name>
