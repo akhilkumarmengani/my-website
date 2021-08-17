@@ -10,7 +10,7 @@ import { routeTransitionAnimations } from './route-transition-animations';
 })
 
 export class AppComponent {
-  title = 'my-website';
+  title = 'akhilkumarmengani';
 
   prepareRoute= (outlet: RouterOutlet) => {
     return outlet && 
